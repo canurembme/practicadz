@@ -1,0 +1,38 @@
+# Логи
+*.log
+
+# Артефакты систем сборки
+build/
+dist/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Папки node_modules (для Node.js)
+node_modules/
+
+# Папки IDE
+.idea/          # IntelliJ IDEA
+.vscode/        # VS Code
+*.iml           # IntelliJ module file
+.DS_Store       # macOS
+
+# Заметки разработчика
+my_notes.txt
+notes/
+todo.txt
+
+# Наш тестовый файл
+rand.txt
+
+# Файлы с чувствительными данными
+*.env
+.env.*
+*.pem
+*.key
+
+# Системные файлы
+Thumbs.db
+desktop.ini
